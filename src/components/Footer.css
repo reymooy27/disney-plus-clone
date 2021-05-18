@@ -1,0 +1,41 @@
+.footer {
+  height: 150px;
+  display: flex;
+  margin: 0 44px;
+  padding: 34px 0 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer--left {
+  width: 58%;
+}
+
+.footer--links {
+  display: flex;
+  padding-bottom: 20px;
+}
+.footer--links a {
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footer--links a:hover {
+  color: #1f80e0;
+}
+
+.copyrights {
+  font-size: 12px;
+  padding-right: 15%;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #dadada;
+}
+
+.footer--right {
+  width: 42%;
+  display: flex;
+  justify-content: space-evenly;
+}
